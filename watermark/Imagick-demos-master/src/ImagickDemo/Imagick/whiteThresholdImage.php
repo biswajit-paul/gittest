@@ -1,0 +1,13 @@
+<?php
+
+namespace ImagickDemo\Imagick;
+
+class whiteThresholdImage extends \ImagickDemo\Example
+{
+    use OriginalImageFile;
+
+    public function render()
+    {
+        return $this->renderImageURL();
+    }
+}

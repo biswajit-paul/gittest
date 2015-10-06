@@ -1,0 +1,12 @@
+sintaxis:
+
+example.php?photo=mypic.jpg[.jpeg .gif .png]&text=www.myownsite.com
+
+
+requirements :
+
+put a ttf font file in a /fonts folder
+put a image in /pics folder
+
+
+author's mail: cesarguarinoni@yahoo.com

@@ -1,0 +1,1 @@
+<img src="file.php" height="234" width="200">

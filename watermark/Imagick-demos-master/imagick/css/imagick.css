@@ -1,0 +1,292 @@
+.smallPadding > tbody > tr > td,
+.smallPadding > li > a {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+body {
+    
+    background-color: #ffffff;
+}
+
+.contentPanel {
+    background-color: #fbfbfb; 
+    border: 3px double #CBCBCB;
+    color: #3f3f3f;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.textPanelSpacing {
+    padding-top: 5px;
+}
+
+.navPanel {
+    font-size: 12px;
+}
+
+.exampleHeader {
+    margin-left: 20px;
+}
+
+.nav-sidebar {
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    min-width: 190px;
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .leftShift {
+        margin-left: -32px;
+    }
+    .leftShiftPush {
+        margin-right: 17px;
+    }
+    .columnAdjust {
+        padding-left: 65px;
+        padding-right: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .leftShift {
+        margin-left: -77px;
+    }
+    .leftShiftPush {
+        margin-right: 62px;
+    }
+
+    .columnAdjust {
+        padding-left: 35px;
+        padding-right: 30px;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .navbar {
+        margin-bottom: 0px;
+    }
+
+    .formHolder {
+        padding: 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    .formHolder {
+        padding-right: 0px;
+    }
+}
+
+
+.smallPadding > tbody > tr > td{
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.formContainer {
+    padding-left: 30px;
+}
+
+.blankSpacer {
+    margin-top:6px;
+    margin-bottom:6px;
+}
+
+.blankSpacer:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.hrSpacer {
+    margin-bottom:16px;
+    background-color: #FFFFFF;
+    background-image: url("/images/hr.php");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.hrSpacer:empty {
+    display: none;
+}
+
+.compositeTableTD {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.navActive {
+    color: #ffffff;
+    background-color: #428BCA;
+}
+
+.navActive > a:hover {
+    background-color: #428BCA;
+}
+
+.navActiveLink {
+    color: #ffffff;
+}
+
+.navActiveLink:hover {
+    color: #ffffff;
+    background-color: #428BCA !important;
+}
+
+.navSpacer {
+    padding-left: 10px;
+}
+
+
+.noMarginTop {
+    margin-top: 0px;
+}
+
+.titleMargin {
+    margin-top: 2px;
+}
+
+
+.standardCell {
+    padding-right: 4px;
+    padding-bottom: 4px;
+}
+
+.valueCell {
+    text-align: right;
+}
+
+@media (max-width: 992px) {
+    .responsiveFont {
+        font-size: 10px;
+    }
+}
+
+pre {
+    display: inline-block;
+    padding-right: 60px;
+}
+
+.shContainer {
+    margin-left: -5px;
+}
+
+@media (min-width: 900px) {
+    .shContainer {
+        max-width: 1200px;
+        font-size: 14px;
+    }
+}
+@media (min-width: 640px) and (max-width: 900px) {
+    .shContainer {
+        width: 100%; 
+        font-size: 10px;
+    }
+}
+@media (max-width: 640px) {
+    .shContainer {
+        width: auto;
+        font-size: 8px;
+    }
+}
+
+.controlTable {
+    border-top: #3f3f3f solid 1px; 
+}
+
+.controlCell {
+    /* border-bottom: #3f3f3f dotted 1px;*/
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.controlRow {
+    border-bottom: #3f3f3f dotted 1px;
+    display: table;
+}
+
+
+.inputValue, .inputSelect {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+
+.inputSubmitRow {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    /*background-color: transparent;
+    display: table; */
+}
+
+.searchContainer {
+    margin-left: -4px;
+}
+
+.searchBox {
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075),0 0 5px rgba(81,167,232,0.5);
+    padding-left: 8px;
+    width: 95%;
+    padding-top: 3px;
+    font-size: 13px;
+}
+
+.searchBox:active {
+    border-color: #428BCA;
+}
+
+.navContainer {
+    display: inline-block;
+}
+
+.controlForm {
+    /* margin-top: -4px; */
+    padding-top: 0px;
+}
+
+.controlForm > div:nth-child(even) {
+    background-color: #EFEFEF;
+}
+
+.controlForm > div {
+  min-height: 15px;
+}
+
+body{
+    overflow-y:scroll;
+}
+
+.asyncImageHidden {
+    display: none;
+}
+
+.infoTable {
+    border: 2px solid #7f7f7f;
+    text-align: right;
+}
+
+.infoTable th,
+.infoTable td {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.infoTable tbody tr:nth-child(even) {
+    background-color: #E9E9E9;
+}
+

@@ -1,0 +1,7 @@
+Enter Import Password:1234
+Enter PEM pass phrase: b3net
+
+
+Device IDs:
+98f6adae5ab161f8398e3d50bcaa402ec84c619b477dcca7d4eba43c67b7dfb1
+e1fc74f98def8ae160e0e1d56d4abb7507a5d2d543962c5f0c0077217eee4ab3

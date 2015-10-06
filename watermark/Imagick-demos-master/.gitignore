@@ -1,0 +1,13 @@
+vendor
+bootstrap-3.1.1
+var
+autogen
+giffy
+deadish
+tool/man
+tool/compare
+imagick/bugTests
+src/test
+scripts/trc
+checkResults.html
+tool/imagick/images/spiderGif
